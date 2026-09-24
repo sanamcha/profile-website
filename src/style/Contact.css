@@ -1,0 +1,112 @@
+.contact {
+  padding: 90px 8%;
+  background: #111827;
+  color: white;
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.contact-header h1 {
+  font-size: 2.8rem;
+  color: #38bdf8;
+}
+
+.contact-header p {
+  max-width: 700px;
+  margin: 20px auto;
+  color: #cbd5e1;
+  line-height: 1.7;
+}
+
+.contact-container {
+  max-width: 1100px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.contact-info,
+.social-section {
+  background: #1e293b;
+  padding: 35px;
+  border-radius: 15px;
+  border: 1px solid #334155;
+}
+
+.contact-info h2,
+.social-section h2 {
+  color: #38bdf8;
+  margin-bottom: 25px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.contact-item .icon {
+  color: #38bdf8;
+  font-size: 1.3rem;
+}
+
+.contact-item a,
+.social-section a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-item a:hover,
+.social-section a:hover {
+  color: #38bdf8;
+}
+
+.social-section a {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 18px;
+  font-size: 1rem;
+}
+
+.resume-button {
+  margin-top: 35px;
+}
+
+.resume-button a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  background: #38bdf8;
+  color: white;
+  text-decoration: none;
+
+  padding: 12px 22px;
+  border-radius: 8px;
+
+  transition: 0.3s;
+}
+
+.resume-button a:hover {
+  background: #0ea5e9;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+.social-section a svg {
+  font-size: 1.3rem;
+  min-width: 24px;
+}
